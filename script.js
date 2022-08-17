@@ -10,6 +10,7 @@ function calculate() {
 		outputScreen.value = eval(outputScreen.value);
 	} catch (err) {
 		alert('Invalid');
+		console.log(err);
 	}
 
 	function clear() {
